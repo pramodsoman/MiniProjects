@@ -5,6 +5,6 @@ This is the main repository for all the projects.
 
 | #   | Project                            | Live Demo                            |
 | --- | ---------------------------------- | ------------------------------------ |
-| 01  | [Expanding Cards](https://github.com/pramodsoman/MiniProjects/tree/master/expanding-cards)  | [Live Demo](https://pramodprojects1.free.nf) |
+| 01  | [Expanding Cards](https://github.com/pramodsoman/MiniProjects/tree/master/expanding-cards)  | [Live Demo](https://pramodprojects1.free.nf/expanding-cards/index1.html) |
 
 

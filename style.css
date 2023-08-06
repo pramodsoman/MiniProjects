@@ -40,6 +40,9 @@
     background-color: #0056b3;
     cursor: pointer;
   }
+  .btn:active {
+    transform: scale(0.98);
+  }
   
   header {
     background: #333;

@@ -2,6 +2,7 @@
 
 This is the main repository for all the projects.
 - [Complete Projects info Website](https://pramodprojects.great-site.net/)
+![Project GIF](url_to_your_gif.gif)
 
 | #   | Project                            | Live Demo                            |
 | --- | ---------------------------------- | ------------------------------------ |

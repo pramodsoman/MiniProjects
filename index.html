@@ -1,144 +1,250 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Pramod Mini Projects</title>
-     <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
-  
-  <!-- Stylesheet -->
-  <link rel="stylesheet" href="1_Main_resources/style.css">
-</head>
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
 
-<body>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="1_Main_resources/style.css" />
+  </head>
 
-  <div class="main-vid">
+  <body>
+    <div class="main-vid">
+      <!-- Background video -->
 
-    <!-- Background video -->
+      <div class="animated-video-background">
+        <video autoplay loop muted>
+          <source src="1_Main_resources/Clouds.mp4" type="video/mp4" />
+        </video>
+      </div>
 
-    <div class="animated-video-background">
-      <video autoplay loop muted>
-        <source src="1_Main_resources/Clouds.mp4" type="video/mp4">
-        
-      </video>
+      <header>
+        <div class="head">
+          <h1>Mini Projects</h1>
+          <p>Mini Web Projects Using HTML, CSS & JavaScript</p>
+        </div>
+      </header>
+
+      <main>
+        <section id="projects">
+          <div class="project-button"><h2>Projects</h2></div>
+
+          <!-- Project card -->
+
+          <div class="project-card">
+            <h3>Project-1</h3>
+            <img
+              src="movie-app/movie-app-thumbnail.jpg"
+              alt="Project-4 thumbnail"
+              width="300"
+              height="120"
+            />
+            <h3>Movie Discovery App</h3>
+            <p>
+              This is a simple movie discovery web app that allows users to
+              browse and search for movies to see some basic information and
+              overviews.
+            </p>
+            <h4>Features:</h4>
+            <li>
+              It uses the TMDB (The Movie Database) API to fetch popular movies
+              and display them on the homepage.
+            </li>
+            <li>
+              The getMovies() function fetches the data from the TMDB API URL
+              and passes it to showMovies() to display each movie.
+            </li>
+            <li>
+              For each movie, it displays the title, poster image, vote average,
+              and overview. The CSS stylizes each movie container.
+            </li>
+            <li>
+              There is a search bar that allows the user to search for movies by
+              name. The search calls the TMDB search API and displays matching
+              movies.
+            </li>
+            <li>
+              The getClassByRate() function assigns a color class to the vote
+              average span based on the rating value.Green for 8+, orange for
+              5+, red for below 5.
+            </li>
+            <li>
+              When a movie poster is clicked, the overview text slides up to
+              reveal more details using a CSS transition.
+            </li>
+            <li>
+              The site has a clean, responsive layout using Flexbox that wraps
+              the movies nicely on different screen sizes.
+            </li>
+            <p>
+              In summary, this is a simple movie discovery app that allows
+              browsing popular and searching movies using the TMDB API. Users
+              can view basic information and toggle overview details. The code
+              uses asynchronous JS to fetch and render API data. The app has a
+              minimal, easy to use interface with some nice styling effects.
+            </p>
+            <a href="movie-app/index4.html" class="btn">View Project</a>
+          </div>
+
+          <div class="project-card">
+            <h3>Project-2</h3>
+            <img
+              src="expanding-cards/Images/expansioncard-thumbnail.jpg"
+              alt="Project-2 thumbnail"
+              width="300"
+              height="100"
+            />
+            <h3>Expansion Card</h3>
+            <p>
+              This project showcases "Expansion Cards," an interactive interface
+              where clicking on a card smoothly expands it to reveal more
+              content, while other cards contract with a smooth animation. It's
+              built using HTML, CSS, and JavaScript, with HTML providing the
+              structure, CSS handling styling and animations, and JavaScript
+              adding interactivity by toggling classes on click to expand and
+              contract the cards.
+            </p>
+            <a href="expanding-cards/index1.html" class="btn">View Project</a>
+          </div>
+
+          <div class="project-card">
+            <h3>Project-3</h3>
+            <img
+              src="split-landing-page/Split-landing-page-Thumbnail.jpg"
+              alt="Project-2 thumbnail"
+              width="300"
+              height="100"
+            />
+            <h3>Split-Landing-Page</h3>
+            <p>
+              This project is a dynamic split landing page featuring a
+              captivating stretch-out hover effect, created with HTML, CSS, and
+              JavaScript. When the page loads, two separate landing sections are
+              shown side-by-side. Users can move their mouse pointer in between
+              to reveal 75% of one section while concealing the other to 25%.
+              The layout is meticulously planned using HTML and CSS, and
+              JavaScript effectively handles the mousemove events on the
+              divider, ensuring smooth and precise shifting of the sections
+              during drag interactions. The result is an engaging and visually
+              appealing experience achieved through seamless transition effects.
+            </p>
+
+            <a href="split-landing-page/index2.html" class="btn"
+              >View Project</a
+            >
+          </div>
+
+          <div class="project-card">
+            <h3>Project-4</h3>
+            <img
+              src="form-input-wave/form-input-wave-thumbnail.jpg"
+              alt="Project-3 thumbnail"
+              width="150"
+              height="120"
+            />
+            <h3>Form-Input-Wave</h3>
+            <p>
+              A simple login form with animated waving labels. When an input is
+              clicked, the corresponding label's letters slide up and down in a
+              smooth waving motion. This is achieved by using JavaScript to wrap
+              each letter in a span and apply a transition delay to each span,
+              offsetting the animation timing to create the wave effect.
+              Specifically, the JavaScript splits the label's innerText into an
+              array, maps over each letter to wrap it in a span with a
+              transition delay based on the index, then joins them back
+              together. CSS transitions on the spans animate the smooth up and
+              down motion. The subtle waving effect adds visual interest to a
+              standard login form. Built with HTML, CSS transitions, and
+              JavaScript.
+            </p>
+            <a href="form-input-wave/index3.html" class="btn">View Project</a>
+          </div>
+
+          <div class="project-card">
+            <h3>Project-5</h3>
+            <img
+              src="Animated-Electric-Button/Animated-Electric-Button_Thumbnail.png"
+              alt="Project-4 thumbnail"
+              width="300"
+              height="120"
+            />
+            <h3>Animated Electric Button</h3>
+            <p>
+              Elevate your user interface with the Animated Electric Button, an
+              engaging web project that brings dynamic animations to your site.
+              This interactive button features an electric-themed design,
+              captivating animations, and a glowing effect on hover, enhancing
+              user experience.
+            </p>
+            <h4>Features:</h4>
+            <li>
+              Engaging Visuals: Vibrant electric-themed design with captivating
+              animations.
+            </li>
+            <li>
+              Seamless Transitions: Smooth animations for a polished user
+              interaction.
+            </li>
+            <li>
+              Hover Delight: Button responds with visually pleasing animations
+              on hover.
+            </li>
+            <li>
+              Electric Glow: Glowing effect on hover adds an enticing visual
+              impact.
+            </li>
+            <li>
+              Subtle Sophistication: Additional animated dots complement the
+              design.
+            </li>
+            <p>
+              The Animated Electric Button is a visually captivating addition to
+              websites. Its mesmerizing animations and electric glow offer an
+              immersive browsing experience.
+            </p>
+            <a href="Animated-Electric-Button/index.html" class="btn"
+              >View Project</a
+            >
+          </div>
+
+          <div class="project-card">
+            <h3>Project-6</h3>
+            <img
+              src="Iconic Hover Buttons/Iconic_hover_thumbnail.jpg"
+              alt="Project-6 thumbnail"
+              width="300"
+              height="120"
+            />
+            <h3>Iconic Hover Buttons</h3>
+            <p>
+              Description: A webpage showcasing CSS3 icons and various button
+              hover effects using modern styles and transitions. Explore
+              interactive icons and animated buttons with unique hovers.
+            </p>
+
+            <a href="Iconic Hover Buttons/index.html" class="btn"
+              ><p>View Project</p></a
+            >
+          </div>
+        </section>
+
+        <section id="about">
+          <!-- About content -->
+        </section>
+      </main>
+
+      <footer>
+        <p>&copy;2023 Pramod Website</p>
+      </footer>
     </div>
-   
-  <header>
-    <div class="head">
-    <h1>Mini Projects</h1>
-    <p>Mini Web Projects Using HTML, CSS & JavaScript</p>
-  </div>
-  </header>
-
-  <main>
-
-    <section id="projects">
-      <div class="project-button"><h2>Projects</h2></div>
-      
-      
-      <!-- Project card -->
-      
-      <div class="project-card">
-        
-        <h3>Project-1</h3>
-        <img src="expanding-cards/Images/expansioncard-thumbnail.jpg" alt="Project-1 thumbnail" width="300" height="100">
-        <h3>Expansion Card</h3>
-        <p>This project showcases "Expansion Cards," an interactive interface where clicking on a card smoothly expands it to reveal more content, while other cards contract with a smooth animation. It's built using HTML, CSS, and JavaScript, with HTML providing the structure, CSS handling styling and animations, and JavaScript adding interactivity by toggling classes on click to expand and contract the cards.
-        </p>
-        <a href="expanding-cards/index1.html" class="btn">View Project</a>
-    </div> 
-
-      <div class="project-card">
-        
-        <h3>Project-2</h3>
-        <img src="split-landing-page/Split-landing-page-Thumbnail.jpg" alt="Project-2 thumbnail" width="300" height="100">
-        <h3>Split-Landing-Page</h3>
-        <p>This project is a dynamic split landing page featuring a captivating stretch-out hover effect, created with HTML, CSS, and JavaScript. 
-          When the page loads, two separate landing sections are shown side-by-side. Users can move their mouse pointer in between to reveal 75% 
-          of one section while concealing the other to 25%. The layout is meticulously planned using HTML and CSS, and JavaScript effectively handles 
-          the mousemove events on the divider, ensuring smooth and precise shifting of the sections during drag interactions. 
-          The result is an engaging and visually appealing experience achieved through seamless transition effects.
-        </p>
-      
-        <a href="split-landing-page/index2.html" class="btn">View Project</a>
-      
-      </div>
-
-      <div class="project-card">
-        <h3>Project-3</h3>
-        <img src="form-input-wave/form-input-wave-thumbnail.jpg" alt="Project-3 thumbnail" width="150" height="120">
-        <h3>Form-Input-Wave</h3>
-        <p>A simple login form with animated waving labels. When an input is clicked, the corresponding label's letters slide up and down in a 
-          smooth waving motion. This is achieved by using JavaScript to wrap each letter in a span and apply a transition delay to each span,
-           offsetting the animation timing to create the wave effect. Specifically, the JavaScript splits the label's innerText into an array,
-            maps over each letter to wrap it in a span with a transition delay based on the index, then joins them back together. 
-            CSS transitions on the spans animate the smooth up and down motion. The subtle waving effect adds visual interest to a standard 
-            login form. Built with HTML, CSS transitions, and JavaScript.
-        </p>
-        <a href="form-input-wave/index3.html" class="btn">View Project</a>
-      </div>
-
-      <div class="project-card">
-        <h3>Project-4</h3>
-        <img src="movie-app/movie-app-thumbnail.jpg" alt="Project-4 thumbnail" width="300" height="120">
-        <h3>Movie Discovery App</h3>
-        <p>This is a simple movie discovery web app that allows users to browse and search for movies to see some basic information and overviews.
-        </p>
-        <h4>Features:</h4>
-      <li>It uses the TMDB (The Movie Database) API to fetch popular movies and display them on the homepage.</li>
-      <li>The getMovies() function fetches the data from the TMDB API URL and passes it to showMovies() to display each movie.</li>
-      <li>For each movie, it displays the title, poster image, vote average, and overview. The CSS stylizes each movie container.</li>
-      <li>There is a search bar that allows the user to search for movies by name. The search calls the TMDB search API and displays matching movies.</li>
-      <li>The getClassByRate() function assigns a color class to the vote average span based on the rating value. Green for 8+, orange for 5+, red for below 5.</li>
-      <li>When a movie poster is clicked, the overview text slides up to reveal more details using a CSS transition.</li>
-      <li>The site has a clean, responsive layout using Flexbox that wraps the movies nicely on different screen sizes.</li>
-      <p>In summary, this is a simple movie discovery app that allows browsing popular and searching movies using the TMDB API. Users can view basic information and toggle overview details. The code uses asynchronous JS to fetch and render API data. The app has a minimal, easy to use interface with some nice styling effects.</p>
-        <a href="movie-app/index4.html" class="btn">View Project</a>
-      </div>
-
-      <div class="project-card">
-        <h3>Project-5</h3>
-        <img src="Animated-Electric-Button/Animated-Electric-Button_Thumbnail.png" alt="Project-5 thumbnail" width="300" height="120">
-        <h3>Animated Electric Button</h3>
-        <p>Elevate your user interface with the Animated Electric Button, an engaging web project that brings dynamic animations to your site. This interactive button features an electric-themed design, captivating animations, and a glowing effect on hover, enhancing user experience.
-        </p>
-        <h4>Features:</h4>
-      <li>Engaging Visuals: Vibrant electric-themed design with captivating animations.</li>
-      <li>Seamless Transitions: Smooth animations for a polished user interaction.</li>
-      <li>Hover Delight: Button responds with visually pleasing animations on hover.</li>
-      <li>Electric Glow: Glowing effect on hover adds an enticing visual impact.</li>
-      <li>Subtle Sophistication: Additional animated dots complement the design.</li>
-      <p>The Animated Electric Button is a visually captivating addition to websites. Its mesmerizing animations and electric glow offer an immersive browsing experience. Suitable for beginners and experienced developers, it's a unique feature that seamlessly integrates into any site.</p>
-        <a href="Animated-Electric-Button/index.html" class="btn">View Project</a>
-      </div>
-
-      <!-- <div class="project-card">
-        <h3>Project-6</h3>
-        <img src="Amazon_clone/Images/ama_clone_Thumb.jpg" alt="Project-6 thumbnail" width="300" height="120">
-        <h3>Amazon E-Commerce App Clone</h3>
-        <p>The Amazon Clone App is a work in progress, meticulously crafted using HTML and CSS. As an exciting project underway.</p>
-
-        <a href="Amazon_clone/index6.html" class="btn"><p>View Project</p></a>
-      </div> -->
-
-    
-    </section>
-
-    <section id="about">
-      <!-- About content -->
-    </section>
-
-  </main>
-  
-  <footer>
-    <p>&copy;2023 Pramod Website</p>
-  </footer>
-
-
-</div>
 
     <script src="1_Main_resources/script.js"></script>
-</body>
+  </body>
 </html>

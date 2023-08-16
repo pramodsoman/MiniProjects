@@ -4,7 +4,10 @@ This is the main repository for all the projects.
 - [Complete Projects info Website](https://pramodprojects.great-site.net/)
 
   
-![Project GIF](https://github.com/pramodsoman/MiniProjects/blob/master/1_Main_resources/website_overveiw.gif)
+<p align="center">
+  <img src="https://github.com/pramodsoman/MiniProjects/blob/master/1_Main_resources/website_overveiw.gif" alt="Project GIF">
+</p>
+
 
 | #   | Project                            | Live Demo                            |
 | --- | ---------------------------------- | ------------------------------------ |

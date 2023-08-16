@@ -5,7 +5,7 @@ This is the main repository for all the projects.
 
   
 <p align="center">
-  <img src="https://github.com/pramodsoman/MiniProjects/blob/master/1_Main_resources/website_overveiw.gif" alt="Project GIF">
+  <img src="https://github.com/pramodsoman/MiniProjects/blob/master/1_Main_resources/website_overveiw.gif" alt="Project GIF" loop="2">
 </p>
 
 

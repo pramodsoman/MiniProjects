@@ -99,6 +99,15 @@ main {
 a {
   text-decoration: none;
 }
+.project-card li {
+  font-size: 1rem;
+  padding: 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-weight: 400;
+}
 .project-button {
   display: flex;
   justify-content: flex-start;
@@ -204,12 +213,22 @@ footer {
   }
 
   .project-card p {
-    font-size: 1rem;
+    font-size: 1.02rem;
     padding: 0;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
     flex-wrap: wrap;
+    font-weight: 400;
+  }
+  .project-card li {
+    font-size: 1.01rem;
+    padding: 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-weight: 400;
   }
   .project-card a {
     justify-content: center;

@@ -42,6 +42,7 @@ body {
 .second {
   display: flex;
   padding: 1rem;
+  background-color: #2d2c3e;
 }
 @media (min-width: 200px) {
   .second {

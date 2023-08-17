@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
 
 * {
   box-sizing: border-box;
@@ -7,22 +7,51 @@
 }
 
 body {
-  background-color: steelblue;
   color: #fff;
-  font-family: 'Muli', sans-serif;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
+  font-family: "Muli", sans-serif;
   overflow: hidden;
   margin: 0;
 }
 
+.animated-video-background {
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+video {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.mainvid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.main-vid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
 .container {
   background-color: rgba(0, 0, 0, 0.4);
-  padding: 20px 40px;
+  padding: 20px;
   border-radius: 5px;
+  text-align: center;
+  width: 100%;
 }
 
 .container h1 {
@@ -62,14 +91,13 @@ body {
 .form-control {
   position: relative;
   margin: 20px 0 40px;
-  width: 300px;
+  width: 100%;
 }
 
 .form-control input {
   background-color: transparent;
   border: 0;
   border-bottom: 2px #fff solid;
-  display: block;
   width: 100%;
   padding: 15px 0;
   font-size: 18px;
@@ -100,4 +128,21 @@ body {
 .form-control input:valid + label span {
   color: lightblue;
   transform: translateY(-30px);
+}
+
+@media screen and (max-width: 450px) {
+  .main-vid {
+    flex-basis: 90%;
+  }
+  .form-control {
+    flex-basis: 90%;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .form-control {
+    flex-basis: 90%;
+    width: 100%;
+  }
 }

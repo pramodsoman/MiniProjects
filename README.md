@@ -17,3 +17,5 @@ This is the main repository for all the projects.
 | 04  | [Form Input Wave](https://github.com/pramodsoman/MiniProjects/tree/master/form-input-wave)  | [Live Demo](https://pramodprojects.great-site.net/form-input-wave/index3.html) |
 | 05  | [Animated Electric Button](https://github.com/pramodsoman/MiniProjects/tree/master/Animated-Electric-Button) | [Live Demo](https://pramodprojects.great-site.net/Animated-Electric-Button/index.html) |
 | 06  | [Iconic Hover Buttons](https://github.com/pramodsoman/MiniProjects/tree/master/Iconic-Hover-Buttons) | [Live Demo](https://pramodprojects.great-site.net/Iconic%20Hover%20Buttons/index.html) |
+| 07  | [Password-Generator](https://github.com/pramodsoman/MiniProjects/tree/master/Password-Generator) | [Live Demo](https://pramodprojects.great-site.net/Password-Generator/index.html) |
+| 08  | [Background-Image-Slider](https://github.com/pramodsoman/MiniProjects/tree/master/background-image-slider) | [Live Demo](https://pramodprojects.great-site.net/background-image-slider/index.html) |

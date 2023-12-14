@@ -22,3 +22,4 @@ This is the main repository for all the projects.
 | 09  | [Sticky-Navbar](https://github.com/pramodsoman/MiniProjects/tree/master/sticky-navbar) | [Live Demo](https://pramodprojects.great-site.net/sticky-navbar/index.html) |
 | 10  | [Theme-Clock](https://github.com/pramodsoman/MiniProjects/tree/master/theme-clock) | [Live Demo](https://pramodprojects.great-site.net/theme-clock/index.html) |
 | 11  | [Sound-Board](https://github.com/pramodsoman/MiniProjects/tree/master/sound-board) | [Live Demo](https://pramodprojects.great-site.net/sound-board/index.html) |
+| 12  | [Sound-Board](https://github.com/pramodsoman/MiniProjects/tree/master/incrementing-counter) | [Live Demo](https://pramodprojects.great-site.net/incrementing-counter/index.html) |

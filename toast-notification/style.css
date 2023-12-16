@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #4b0082;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.btn {
+  background-color: #ffffff;
+  color: #4b0082;
+  font-family: inherit;
+  font-weight: bold;
+  padding: 1rem;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.close-btn {
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: #171616;
+    margin-left: 10px;
+  }
+  
+  .close-btn:focus {
+    outline: none;
+  }
+  
+
+#toasts {
+  position: fixed;
+  top: 50px;
+  right: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.toast {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 1.5rem 2rem;
+  margin: 0.5rem;
+  opacity: 0;
+  animation: slideIn 0.5s ease-in-out forwards, fadeOut 0.5s ease-in-out 2.5s forwards;
+}
+
+.toast.info {
+  color: #4b0082;
+  border: 2px solid #4b0082;
+}
+
+.toast.success {
+  color: #006400;
+  border: 2px solid #006400;
+}
+
+.toast.error {
+  color: #8b0000;
+  border: 2px solid #8b0000;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(-50px);
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}

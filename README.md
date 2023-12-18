@@ -25,3 +25,4 @@ This is the main repository for all the projects.
 | 12  | [Incrementing-Counter](https://github.com/pramodsoman/MiniProjects/tree/master/incrementing-counter) | [Live Demo](https://pramodprojects.great-site.net/incrementing-counter/index.html) |
 | 13  | [Quiz-App](https://github.com/pramodsoman/MiniProjects/tree/master/quiz-app) | [Live Demo](https://pramodprojects.great-site.net/quiz-app/index.html) |
 | 14  | [Toast-Notification-App](https://github.com/pramodsoman/MiniProjects/tree/master/toast-notification) | [Live Demo](https://pramodprojects.great-site.net/toast-notification/index.html) |
+| 15  | [Button-Ripple-Effect](https://github.com/pramodsoman/MiniProjects/tree/master/toast-notification) | [Live Demo](https://pramodprojects.great-site.net/button-ripple-effect/index.html) |
